@@ -7,13 +7,13 @@ In 2015, Our college made an online portal for filing complaints. For this a stu
 
 
 ##  Changes Made ##
--Made a new interface using bootstrap 5 in red white theme.
--Changed with the previous interface which was made in 2015.
--Added Navbar 
--Made interface charismatic by adding doodles
+*Made a new interface using bootstrap 5 in red white theme.
+*Changed with the previous interface which was made in 2015.
+*Added Navbar 
+*Made interface charismatic by adding doodles
 
 ## Things to do ##
--Add Stories section (imp)
--Remove previous css and files which are not useful
--Sort and make the code more readable
--Separate js scripts and css files from main index file
+*Add Stories section (imp)
+*Remove previous css and files which are not useful
+*Sort and make the code more readable
+*Separate js scripts and css files from main index file
