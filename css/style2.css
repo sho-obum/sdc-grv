@@ -1,0 +1,35 @@
+button.submit {
+    background: #f9fafb;
+    border: medium none;
+    color: #dc3545;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0px;
+    border-radius: 5px;
+}
+button.submit:hover{
+    background: #dc3545;
+    color: beige;
+    border: beige 1px solid;
+}
+/* stories */
+  
+  .image-slider {
+      display: block;
+      width: 50%;
+      height: auto;
+  }
+  
+  .owl-nav {
+      
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #ff7b00 !important;
+  }
+/* end of stories */

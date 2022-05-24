@@ -1,0 +1,165 @@
+#main-container
+{
+	margin-left:0px;
+	width:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.header
+{
+	width:100%;
+	height:130px;
+	background:#fafafa;
+	padding-left:10px;
+}
+
+.header .logo
+{
+	width:15%;
+	float:left;
+	height:120px;
+	margin-top:-20px;
+}
+
+.header .logo h1
+{
+	font-family: 'Arial black';
+	font-weight:bolder;
+	text-decoration: none;
+	color: #1C97CA;
+	font-size: 50px;
+	display: block;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	-webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+}
+
+.header .sub-header
+{
+	padding-left:220px;
+	float:left;
+	width:60%;
+	height:40%
+}
+
+.header .sub-header h1
+{
+	text-align:center;
+	height:40px;
+	font-size: 3em;
+    font-weight: 300;
+}
+
+.header .sub-header h2
+{
+	text-align:center;
+	font-weight: 200;
+    color: #ccc;
+    padding: 0;
+}
+
+.form-container
+{
+padding:30px;
+margin:10px;
+}
+
+#main-form
+{
+margin-left:30%;
+}
+
+#foot{
+text-align:center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	
+	.header .logo
+{
+	width:27%;
+	float:left;
+	height:120px;
+	margin-top:-20px;
+}
+	
+	.header .logo h1
+{
+	font-family: 'Arial black';
+	font-weight:bolder;
+	text-decoration: none;
+	color: #1C97CA;
+	font-size: 50px;
+	display: block;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	-webkit-box-reflect:none; 
+}
+	
+    .header .sub-header
+{
+	
+	padding-left:30px;
+	float:left;
+	width:73%;
+	height:40%
+}
+.header .sub-header h1
+{
+	text-align:center;
+	height:40px;
+	font-size: 2.0em;
+    font-weight: 300;
+}
+.header .sub-header h2
+{
+	text-align:center;
+	font-weight: 200;
+    color: #ccc;
+    padding: 0;
+	font-size: 1.4em;
+}
+}
+
+
+@media only screen and (min-width: 769px) {
+/* For tablets: */
+.header .logo
+{
+	width:15%;
+	float:left;
+	height:120px;
+	margin-top:-20px;
+}
+
+.header .logo h1
+{
+-webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+}	
+	
+    .header .sub-header
+{	
+	padding-left:10px;
+	float:left;
+	width:73%;
+	height:40%
+}
+.header .sub-header h1
+{
+	text-align:center;
+	height:50px;
+	font-size: 3.0em;
+    font-weight: 300;
+}
+.header .sub-header h2
+{
+	text-align:center;
+	font-weight: 200;
+    color: #ccc;
+    padding: 0;
+	font-size: 1.8em;
+}
+}
